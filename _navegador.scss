@@ -1,0 +1,40 @@
+.menu .navbar ul li{
+    position: relative;
+    float: left; 
+}
+.menu .navbar ul li{
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600; 
+}
+.navbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    margin-right: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+.navbar a:hover {
+    color: #ff9900;
+}
+.menu-icono {
+    font-size: 25px;
+    display: none;
+    margin: 10px;
+    color: aliceblue;
+}
+
+@media (max-width: 990px) {
+    .menu-icono {
+        display: none;
+    }
+}
